@@ -15,5 +15,5 @@ router.post('/', (req, res, next) => {
   const comment = new Comment({
     _id: new mongoose.Types.ObjectId(),
     content: req.body.content,
-    )
+  });
 });
